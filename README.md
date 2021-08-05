@@ -87,42 +87,7 @@ import glob
 |No|Source|Link|
 |-|-|-|
 |1|CitiBike_Complete|https://github.com/alysnow/tableau-challenge/blob/main/data/CitiBike_Complete.csv|
-|2|JC-201801-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|3|JC-201802-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|4|JC-201803-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|5|JC-201804-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|6|JC-201805-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|7|JC-201806-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|8|JC-201807-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|9|JC-201808-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|10|JC-201809-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|11|JC-201810-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|12|JC-201811-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|13|JC-201812-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|14|JC-201901-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|15|JC-201902-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|16|JC-201903-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|17|JC-201904-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|18|JC-201905-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|19|JC-201906-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|20|JC-201907-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|21|JC-201908-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|22|JC-201909-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|23|JC-201910-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|24|JC-201911-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|25|JC-201912-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|26|JC-202001-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|27|JC-202002-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|28|JC-202003-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|29|JC-202004-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|30|JC-202005-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|31|JC-202006-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|32|JC-202007-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|33|JC-202008-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|34|JC-202009-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|35|JC-202010-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|36|JC-202011-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
-|37|JC-202012-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
+|2|JC-201801-citibike-tripdata > JC-202012-citibike-tripdata|https://github.com/alysnow/tableau-challenge/blob/main/data|
 
 ## Task
 
@@ -214,13 +179,23 @@ Your final product will be assessed on the following metrics:
 
 ### Dashboard 1 - Most Active Overview
 
+* The last month of Summer is the most popular month
+* Grove St Path is the most popular Starting and Ending Station
+* 8am and 6pm are the most active times in all three years analysed (2018-2020)
+
 ![Dashboard1](images/Dashboard1.PNG)
 
 ### Dashboard 2 - Battle of the Genders
 
+* Females on average have longer trip durations
+* The age group with the average highest trip duration is 17-20
+* There appears to be a higher volume of Subscribers in the age group of 31-40
+
 ![Dashboard2](images/Dashboard2.PNG)
 
 ### Dashboard 3 - Pandemic
+
+* Evidentally there was a large decline in Customers and Subscribers during the COVID Pandemic and an even larger decline in the first quarter of 2021
 
 ![Dashboard3](images/Dashboard3.PNG)
 
